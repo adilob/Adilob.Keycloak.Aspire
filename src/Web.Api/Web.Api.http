@@ -1,0 +1,10 @@
+@Web.Api_HostAddress = https://localhost:7228
+
+GET {{Web.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Web.Api_HostAddress}}/stock-prices
+
+###
